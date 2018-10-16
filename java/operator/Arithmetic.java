@@ -38,6 +38,8 @@ public class Arithmetic {
 		System.out.println(result +" % 7 = "+ x);
 		
 		//	+ Additive used for String concatenation
-		System.out.println("Thank "+ "you.");
+		String first = "Thanks ";
+		String last = "you.";
+		System.out.println(first + last);
 	}
 }
