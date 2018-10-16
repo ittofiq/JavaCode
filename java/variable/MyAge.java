@@ -1,4 +1,4 @@
-package operation;
+package variable;
 
 import java.util.Calendar;
 import java.util.Scanner;

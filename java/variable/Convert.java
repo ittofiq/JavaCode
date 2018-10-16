@@ -1,4 +1,4 @@
-package operation;
+package variable;
 
 public class Convert {
 	
