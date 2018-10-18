@@ -16,7 +16,7 @@ public class IntegerDataType {
 
 	public static void main(String[] args) {
 		
-		int i = 2147483647;
+		int i = 1_234_567_890;
 		
 		System.out.println(i);
 	}
