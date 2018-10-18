@@ -16,7 +16,7 @@ public class ShortDataType {
 	
 	public static void main(String[] args) {
 		
-		short s = 32767;
+		short s = 32_767;
 		
 		System.out.println(s);
 	}
