@@ -14,7 +14,7 @@ public class LongDataType {
 
 	public static void main(String[] args) {
 		
-		long l = 100000L;
+		long l = 1_234_567_890_123_456_789L;
 		System.out.println(l);
 	}
 }
