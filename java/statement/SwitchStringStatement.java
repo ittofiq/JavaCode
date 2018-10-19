@@ -1,6 +1,6 @@
 package statement;
 
-public class StringSwitchStatement {
+public class SwitchStringStatement {
 
 	public static int getMonthNumber(String month) {
 		
@@ -59,7 +59,7 @@ public class StringSwitchStatement {
 		// TODO Auto-generated method stub
 		String month = "August";
 		
-		int returnedMonthNumber = StringSwitchStatement.getMonthNumber(month);
+		int returnedMonthNumber = SwitchStringStatement.getMonthNumber(month);
 		
 		if (returnedMonthNumber == 0) {
 			System.out.println("Invalid Month.");
