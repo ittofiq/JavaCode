@@ -12,7 +12,6 @@ public class Bicycle {
 	 * The Bicycle class has
 	 * three fields 
 	 */
-	
 	public int cadence;
 	public int gear;
 	public int speed;
@@ -22,7 +21,6 @@ public class Bicycle {
 	 * one constructor
 	 * 
 	 */
-	
 	public Bicycle(int startCadence, int startGear, int startSpeed) {
 		cadence = startCadence;
 		gear = startGear;
@@ -34,7 +32,6 @@ public class Bicycle {
 	 * four methods
 	 * 
 	 */
-
 	public void setCadence(int newValue) {
 		this.cadence = newValue;
 	}
@@ -46,10 +43,9 @@ public class Bicycle {
 	public void applyBrake(int decrement) {
 		this.speed -= decrement;
 	}
+	
 	private void speedUp(int increment) {
 		this.speed += increment;
-
 	}
-	
 	
 }
