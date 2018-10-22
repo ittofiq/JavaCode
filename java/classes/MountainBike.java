@@ -19,7 +19,6 @@ public class MountainBike extends Bicycle {
 	 * The MountainBike has
 	 * one constructor
 	 */
-	
 	public MountainBike(int startHeight, int startCadence, int startGear, int startSpeed) {
 		super(startCadence, startGear, startSpeed);
 		// TODO Auto-generated constructor stub
