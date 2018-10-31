@@ -26,7 +26,7 @@ public class CarTruck extends Car {
 	public void getSuper() {
 		System.out.println("Car Type : "+super.Type);
 		System.out.println("Car Model : "+super.Model);
-		System.out.println("Car Type : "+Owner);
+		System.out.println("Car Owner : "+Owner);
 		System.out.println("Car Price : "+super.getPrice());
 	}
 }
