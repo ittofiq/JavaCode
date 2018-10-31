@@ -7,7 +7,10 @@ public class CarTruckMain {
 
 		Car.Owner = "John";
 		CarTruck carTruck = new CarTruck();
+		carTruck.getSuper();
+		
 		carTruck.Type = "TOYOTA";
+		carTruck.Owner = "Kopral";
 		carTruck.Model = 2018;
 		carTruck.Price = 20000;
 		carTruck.milesDrive = 5;
@@ -15,9 +18,10 @@ public class CarTruckMain {
 		
 		double Price = carTruck.getPrice();
 		
-		System.out.println("Type : "+carTruck.Type);
+		System.out.println("CarTruck Type : "+carTruck.Type);
+		System.out.println("CarTruck Model : "+carTruck.Model);
 		carTruck.setOwner();
-		System.out.println("Price : "+Price);
+		System.out.println("CarTruck Price : "+Price);
 	}
 
 }
