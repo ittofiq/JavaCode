@@ -44,8 +44,14 @@ public class Bicycle {
 		this.speed -= decrement;
 	}
 	
-	private void speedUp(int increment) {
+	public void speedUp(int increment) {
 		this.speed += increment;
+	}
+	
+	public void printStates() {
+		System.out.println("Cadence : "+cadence);
+		System.out.println("Speed : "+speed);
+		System.out.println("Gear : "+gear);
 	}
 	
 }
