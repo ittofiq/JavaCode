@@ -1,4 +1,4 @@
-package statement;
+package operator;
 
 /*
  * Logic operator (>, >=, <, <=, ==, !=)
@@ -6,7 +6,7 @@ package statement;
  * 
  */
 
-public class LogicStatement {
+public class Logic {
 	
 	public static void main(String[] args) {
 		
