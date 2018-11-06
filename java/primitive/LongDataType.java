@@ -14,7 +14,16 @@ public class LongDataType {
 
 	public static void main(String[] args) {
 		
-		long l = 1_234_567_890_123_456_789L;
-		System.out.println(l);
+		long minValue = -9_223_372_036_854_775_808L;
+		long maxValue = 9_223_372_036_854_775_807L;
+		
+		byte byteValue = 10;
+		short shortValue = 20;
+		int intValue = 50;
+		
+		short shortTotal = (short) (1000 + 10 * (byteValue + shortValue + intValue));
+		long longTotal = 50000L + 30L * (byteValue + shortValue + intValue);
+		System.out.println(shortTotal);
+		System.out.println(longTotal);
 	}
 }
