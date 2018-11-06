@@ -14,5 +14,11 @@ public class CharDataType {
 	public static void main(String[] args) {
 		char c = 'C';
 		System.out.println(c);
+		
+		char charValue = '\u00A9';
+		System.out.println("Unicode output:"+charValue);
+		
+		char register = '\u00AE';
+		System.out.println("Registered simbul:"+register);
 	}
 }
