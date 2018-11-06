@@ -13,7 +13,9 @@ package primitive;
 public class BooleanDataType {
 
 	public static void main(String[] args) {
-		boolean b = true;
-		System.out.println(b);
+		boolean myBoolean = false;
+		boolean isMale = true;
+		
+		System.out.println(isMale);
 	}
 }
