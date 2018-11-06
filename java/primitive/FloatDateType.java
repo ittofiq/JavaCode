@@ -17,6 +17,8 @@ public class FloatDateType {
 		
 		float f = 123.1234567890f;
 		
-		System.out.println(f);
+		float floatValue = 5f / 3f;
+		
+		System.out.println(floatValue);
 	}
 }
