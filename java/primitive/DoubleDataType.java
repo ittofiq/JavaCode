@@ -14,6 +14,12 @@ public class DoubleDataType {
 	public static void main(String[] args) {
 		
 		double d = 123.12345678901234567890d;
-		System.out.println(d);
+		
+		double doubleValue = 5d / 3d;
+		System.out.println(doubleValue);
+		
+		double numPounds = 200;
+		double convertedKilograms = numPounds * 0.45359237d;
+		System.out.println("Kilograms:"+convertedKilograms);
 	}
 }
