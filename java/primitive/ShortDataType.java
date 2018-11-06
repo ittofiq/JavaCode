@@ -16,9 +16,15 @@ public class ShortDataType {
 	
 	public static void main(String[] args) {
 		
-		short s = 32_767;
+		short minValue = -32768;
+		short maxValue = 32767;
 		
-		System.out.println(s);
+		short firstValue = 2500 + 40;
+		
+		short newMaxValue = (short)(maxValue/2);
+		
+		System.out.println(firstValue);
+		System.out.println(newMaxValue);
 	}
 
 }
