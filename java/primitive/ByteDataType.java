@@ -16,8 +16,13 @@ public class ByteDataType {
 
 	public static void main(String[] args) {
 		
-		byte x = 127;
+		byte minValue = -128;
+		byte maxValue = 127;
 		
-		System.out.println(x);
+		byte firstValue = 100 + 15;
+		byte newMinValue = (byte) (minValue / 2);
+		
+		System.out.println(firstValue);
+		System.out.println(newMinValue);
 	}
 }
