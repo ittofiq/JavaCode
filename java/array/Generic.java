@@ -1,4 +1,4 @@
-package classes;
+package array;
 
 public class Generic {
 
